@@ -43,8 +43,9 @@ Once you have successfully installed the package, you can use it by importing it
     info = test.get_cur_whois('domain to be queried  ')
     print(info)
 
-## 3 FEATURES  
-###1. Structure    
+## 3 FEATURES    
+ 
+### 1. Structure    
 	.
 	├── LICENSE
 	├── MANIFEST.in
