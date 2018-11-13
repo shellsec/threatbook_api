@@ -58,8 +58,7 @@ Once you have successfully installed the package, you can use it by importing it
 	    ├── ioc_query.py
 	    ├── ip_analysis_query.py
 	    ├── ip_reputation_query.py
-		|
-		└── example
+	    └── example
 	        ├── get_all_fields.py
 	        ├── get_one_field.py
 	        └── get_some_fields.py
