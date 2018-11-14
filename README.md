@@ -1,5 +1,4 @@
 # ThreatBook_API Resource Storage SDK for Python
-#  #
 
 ## 1 INTRODUCTION
 
