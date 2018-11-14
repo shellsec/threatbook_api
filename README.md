@@ -1,5 +1,4 @@
 # ThreatBook_API Resource Storage SDK for Python
-#  #
 
 ## 1 Introduction
 
@@ -27,9 +26,8 @@ we will deliver your corresponding apikey by mail.
 
 ## 2 Installation 
 
-   
-
-``` $ pip install threatbook_API
+```
+$ pip install threatbook_API
 ```    
 Once you have successfully installed the package, you can use it by importing it. The following example shows how to get the current whois information for a domain:
    
