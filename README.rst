@@ -1,7 +1,7 @@
 ThreatBook\_API Resource Storage SDK for Python
 ===============================================
 
-1 INTRODUCTION
+1 Introduction
 --------------
 
 This release provides access to the corresponding functionality through
@@ -26,7 +26,7 @@ registration information query, domain analysis, IOC detection, IP
 analysis, IP reputation query, etc. As our business customer or partner,
 we will deliver your corresponding apikey by mail.
 
-2 INSTALLATION
+2 Installation
 --------------
 
 | ``$ pip install threatbook_API``
@@ -47,7 +47,7 @@ information for a domain:
     info = test.get_cur_whois('domain to be queried  ')
     print(info)
 
-3 FEATURES
+3 Features
 ----------
 
 1. Structure
@@ -101,7 +101,18 @@ information for a domain:
 For more detailed information, please see the corresponding
 documentation for each module.
 
-Code License
-------------
+4 Problem Description
+---------------------
+
+This SDK uses the python 3.x version by default. If you need to use
+python 2.x version, Chinese may not display the problem properly. To
+solve this problem, please refer to this link:
+
+::
+
+    https://blog.csdn.net/qq_42281053/article/details/80702852.
+
+5 Code License
+--------------
 
 The MIT License (MIT).

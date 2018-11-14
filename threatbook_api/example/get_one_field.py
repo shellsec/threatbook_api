@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # If you only need to get a field, you can use the methods in the module directly.
-from threatbook_API.domain_analysis_query import DomainAnalysis
+from threatbook_api.domain_analysis_query import DomainAnalysis
 
 test1 = DomainAnalysis('your private api_key')
 

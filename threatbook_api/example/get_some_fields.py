@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from threatbook_API.domain_analysis_query import DomainAnalysis
+from threatbook_api.domain_analysis_query import DomainAnalysis
 
 # If you need to get some fields, you can need the get_fields method in the module.
 

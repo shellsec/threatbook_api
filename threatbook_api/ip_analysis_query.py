@@ -316,3 +316,12 @@ class IpAnalysis(object):
                 self.msg = response.status_code, "not fount"
                 res = {"data": self.data, "msg": self.msg, "response_code": self.response_code}
                 return json.dumps(res)
+
+
+k = 'bf7ea78f5c124407924d41f061d514153e80d2fa62ab4260996681eed5542dbc'
+test1 = IpAnalysis(k)
+
+# Get the current whois information of the domain
+d = '10.110.50.3'
+info = test1.get_tags(d)
+print(info)

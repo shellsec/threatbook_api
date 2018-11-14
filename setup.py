@@ -6,8 +6,8 @@ from setuptools import setup, find_packages
 
 setup(
 
-    name="threatbook_API",
-    version="0.1.3",
+    name="threatbook_api",
+    version="0.1.6",
     url="https://github.com/li010101/threatbook_api.git",
     author="li010101",
     author_email="liyaohui54@gmail.com",
