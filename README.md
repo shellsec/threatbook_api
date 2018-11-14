@@ -26,8 +26,6 @@ we will deliver your corresponding apikey by mail.
 
 ## 2 INSTALLATION 
 
-   
-
 ``` $ pip install threatbook_API
 ```    
 Once you have successfully installed the package, you can use it by importing it. The following example shows how to get the current whois information for a domain:
