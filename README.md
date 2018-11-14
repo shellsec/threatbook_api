@@ -1,7 +1,7 @@
 # ThreatBook_API Resource Storage SDK for Python
 #  #
 
-## 1 INTRODUCTION
+## 1 Introduction
 
 This release provides access to the corresponding functionality through
  both public API_KEY and private API_KEY. 
@@ -25,7 +25,7 @@ IP analysis, IP reputation query, etc. As our business customer or partner,
 we will deliver your corresponding apikey by mail. 
 
 
-## 2 INSTALLATION 
+## 2 Installation 
 
    
 
@@ -43,7 +43,7 @@ Once you have successfully installed the package, you can use it by importing it
     info = test.get_cur_whois('domain to be queried  ')
     print(info)
 
-## 3 FEATURES    
+## 3 Features    
  
 ### 1. Structure    
 	.
@@ -58,7 +58,7 @@ Once you have successfully installed the package, you can use it by importing it
 	    ├── ioc_query.py
 	    ├── ip_analysis_query.py
 	    ├── ip_reputation_query.py
-	    └── example
+		└── example
 	        ├── get_all_fields.py
 	        ├── get_one_field.py
 	        └── get_some_fields.py
@@ -79,8 +79,15 @@ Once you have successfully installed the package, you can use it by importing it
     
 For more detailed information, please see the corresponding documentation for each module.
 
+
+## 4 Problem Description
+This SDK uses the python 3.x version by default. If you need to use python 2.x version, Chinese may not display the problem properly. To solve this problem, please refer to this link: 
+```
+https://blog.csdn.net/qq_42281053/article/details/80702852.
+```
+
     
-## Code License
+## 5 Code License
 The MIT License (MIT).
 
 
